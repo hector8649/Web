@@ -1,64 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
-<header>
-        <h1>Protagonistas de la primera vuelta al mundo</h1>
-        <ul>
-            <li><a href="index.html">Derroteros</a></li>
-            <li><a href="protagonistas.html">Protagonistas</a></li>
-            <li><a href="mapa.html">Mapa Interactivo</a></li>
-            <li><a href="bibliografia.html">Bibliografía</a></li>
-        </ul>
-    </header>
-    <main>
-<section class="mapa-interactivo">
-  <h2>Ruta de la primera vuelta al mundo</h2>
 
-  <div class="mapa-contenedor">
-    <img src="Material/vueltaalmundo.jpg" alt="Mapa antiguo del mundo">
+  <header>
+    <h1 class="texto">Mapa de la primera vuelta al mundo</h1>
+    <nav>
+    <ul>
+      <li><a href="index.html">Derroteros</a></li>
+      <li><a href="protagonistas.html">Protagonistas</a></li>
+      <li><a href="mapa.html">Mapa Interactivo</a></li>
+    </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="mapa-interactivo">
+      <h2>Ruta de la primera vuelta al mundo</h2>
 
-    <a href="#sevilla" class="punto sevilla" title="Salida: Sevilla"></a>
-    <a href="#magallanes" class="punto magallanes" title="Estrecho de Magallanes"></a>
-    <a href="#molucas" class="punto molucas" title="Islas Molucas"></a>
-  </div>
-</section>
-<section id="sevilla">
-  <h3>Salida desde Sevilla (1519)</h3>
-  <p>La expedición partió del puerto de Sevilla el 10 de agosto de 1519.</p>
-</section>
+      <div class="mapa-contenedor">
+        <img src="Material/vueltaalmundo.jpg" alt="Mapa antiguo del mundo">
+        <p>Mapa interactivo: haz clic en los puntos de interés para ver cada etapa del viaje</p>
+        <a href="#sevilla" class="punto sevilla" title="Salida: Sevilla"></a>
+        <a href="#rio-janeiro" class="punto rio-janeiro" title="Rio de Janeiro"></a>
+        <a href="#plata" class="punto plata" title="Rio de la plata"></a>
+        <a href="#magallanes" class="punto magallanes" title="Estrecho de Magallanes"></a>
+        <a href="#guam" class="punto guam" title="Isla de los ladrones"></a>
+        <a href="#tidore" class="punto tidore" title="Tidore"></a>
+      </div>
+    </section>
+    <section id="sevilla">
+      <h3>Salida desde Sevilla (1519)</h3>
+      <p>La expedición partió del puerto de Sevilla el 10 de agosto de 1519.</p>
+    </section>
+    <section id="rio-janeiro">
+      <h3>Bahía de Sepetiba</h3>
+      <p>Aunque hay quien dice que atracaron en lo que hoy es la bahía de Río de
+        Janeiro, lo más seguro es que lo hiciesen algo más abajo en la bahía de Sepetiba, pues
+        esta se encontraba fuera del dominio portugués.</p>
+      <p>El 20 de noviembre, estando la armada surta en dicho puerto, se sentencia a
+        muerte al maestre de la Victoria, Antón Salomón, acusado de sodomía. Aquí se
+        incorpora a la expedición un hijo mestizo del piloto Juan Lopes Carvalho, fruto de una
+        relación que tuvo con una indígena en una expedición anterior.</p>
+    </section>
 
-<section id="magallanes">
-  <h3>Estrecho de Magallanes</h3>
-  <p>Paso descubierto en 1520 que permitió comunicar el Atlántico con el Pacífico.</p>
-</section>
+    <section id="plata">
+      <h3>Rio de la plata</h3>
+      <p>Continúa el viaje costeando hacia el sur, hasta que entran en el río de la Plata. Este
+        río había sido descubierto 3 años antes por Juan Díaz de Solís, con una expedición que
+        también buscaba el paso al mar del sur. Terminó asesinado y comido por los indios de
+        la zona.</p>
+      <p>Están en río de la Plata 22 días tratando de verificar si podía ser el estrecho,
+        aunque no se comprende muy bien por qué tanto tiempo, pues el agua era dulce y la
+        expedición de Solís ya creo que había confirmado que no era lo buscado.</p>
+    </section>
 
-<section id="molucas">
-  <h3>Islas Molucas</h3>
-  <p>Objetivo principal del viaje por su riqueza en especias.</p>
-</section>
+    <section id="guam">
+      <h3>Isla de Guam, la isla de los ladrones</h3>
+      <p>Por fin, el 6 de marzo de 1.521, encuentran una isla donde pueden desembarcar,
+        la isla de Guam, y ellos la llaman “Isla de los Ladrones”, pues los nativos subían a las
+        naves y sin ningún reparo les robaban todo lo que encontraban a su paso. Estuvieron en
+        ella tres días y gracias a eso se salvó mucha gente, aunque el constante acoso y robo
+        que llevaban a cabo los nativos, robando incluso uno de los bateles, hizo enfadar a
+        Magallanes, que reaccionó quemando varias cabañas y marchándose del lugar.</p>
+    </section>
 
-</main>
- <footer>
-        <p>
-            Proyecto basado en <br> Derroteros de la navegación en la primera vuelta al mundo<br>
-            Juan Sebastián Elcano (1519–1522)
-        </p>
-        <p>
-            Autor: Isabelo Gómez Costa<br>
-            Trabajo de carácter educativo
-        </p>
-        <p>
-            <a href="/pdf/DERROTERO MAGALLANES 2.pdf" target="_blank">
-                Consultar documento original (PDF)
-            </a>
-        </p>
-    </footer>
+    <section id="magallanes">
+      <h3>Estrecho de Magallanes</h3>
+      <p>La exploración del estrecho resulta muy complicada y Magallanes envía
+        nuevamente de avanzadilla a la San Antonio y a la Concepción. La San Antonio pone
+        rumbo hacia España y deserta abandonando la expedición apresando al capitán, que era
+        familiar de Magallanes, y poniéndose al frente de la nao el piloto portugués Esteban
+        Gómez. A su llegada a España, declaran que, tras perderse del resto de la expedición y
+        ante la imposibilidad de seguir adelante solos, tras buscar a las otras naves sin conseguir
+        avistarlas, deciden poner rumbo a España y tratar de buscar a los dos desterrados por
+        Magallanes con anterioridad, aunque sin conseguirlo.</p>
+    </section>
+
+    <section id="tidore">
+      <h3>Tidore</h3>
+      <p>En sólo 10 días llegan, por fin, a las “Islas de las Especias”. A su llegada a Tidore,
+        son muy bien recibidos por su rey, Al-Mansur, al que pronto llaman Almanzor. Era
+        musulmán, pues los árabes habían llegado a estas islas para comerciar. Los portugueses
+        no debían de haberlo tratado muy bien, pues pide a los españoles que se queden y lo
+        protejan. Ofrece vasallaje al emperador Carlos I e incluso propone llamar a su isla
+        “Castilla”.</p>
+    </section>
+
+  </main>
+  <footer>
+    <p>
+      Proyecto basado en <br> Derroteros de la navegación en la primera vuelta al mundo<br>
+      Juan Sebastián Elcano (1519–1522)
+    </p>
+    <p>
+      Autor: Isabelo Gómez Costa<br>
+      Trabajo de carácter educativo
+    </p>
+    <p>
+      <a href="/pdf/DERROTERO MAGALLANES 2.pdf" target="_blank">
+        Consultar documento original (PDF)
+      </a>
+    </p>
+  </footer>
 </body>
+
 </html>

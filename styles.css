@@ -154,3 +154,123 @@ footer a:hover{
   text-align: center;
   margin-top: 40px;
 }
+
+.mapa-contenedor {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.mapa-contenedor img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.mapa-interactivo h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2.6rem;
+  padding: 30px;
+  color: #2f2617;
+  border: 3px solid #8b6f47;
+}
+
+.punto {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #8b0000;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.punto:hover {
+  background-color: #c0392b;
+}
+
+.sevilla {
+  top: 28%;
+  left: 43%;
+}
+
+.rio-janeiro{
+  top: 65%;
+  left: 30%;
+}
+
+.plata{
+   top: 73%;
+  left: 27%;
+}
+
+.magallanes {
+  top: 85%;
+  left: 25%;
+}
+
+.guam{
+  top: 42%;
+  left: 90%;
+}
+
+.tidore {
+  top: 50%;
+  left: 84%;
+}
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 25px 10px;
+  }
+
+  header h1 {
+    font-size: 1.6em;
+    padding: 0 10px;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main {
+    margin: 0 15px 30px;
+    padding: 20px;
+  }
+
+  .naves-expedicion {
+    flex-direction: column;
+  }
+
+  .naves-expedicion img {
+    max-width: 100%;
+    margin-top: 15px;
+  }
+
+  .personaje img {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .mapa-interactivo h2 {
+    font-size: 1.8rem;
+    padding: 20px;
+  }
+
+  .punto {
+    width: 12px;
+    height: 12px;
+  }
+
+}
+
