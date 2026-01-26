@@ -129,7 +129,7 @@ footer {
   font-size: 0.9em;
 }
 footer a{
-    color: #8b0000;
+    color: #921212;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -193,35 +193,35 @@ footer a:hover{
 }
 
 .sevilla {
-  top: 28%;
-  left: 43%;
+  top: 25%;
+  left: 42%;
 }
 
 .rio-janeiro{
-  top: 65%;
+  top: 60%;
   left: 30%;
 }
 
 .plata{
-   top: 73%;
+   top: 67%;
   left: 27%;
 }
 
 .magallanes {
-  top: 85%;
+  top: 76%;
   left: 25%;
 }
 
 .guam{
-  top: 42%;
+  top: 38%;
   left: 90%;
 }
 
 .tidore {
-  top: 50%;
+  top: 46%;
   left: 84%;
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
 
   body {
     font-size: 16px;
@@ -271,6 +271,36 @@ footer a:hover{
     width: 12px;
     height: 12px;
   }
+
+  .sevilla {
+  top: 20%;
+  left: 42%;
+}
+
+.rio-janeiro{
+  top: 48%;
+  left: 30%;
+}
+
+.plata{
+   top: 54%;
+  left: 27%;
+}
+
+.magallanes {
+  top: 60%;
+  left: 25%;
+}
+
+.guam{
+  top: 30%;
+  left: 90%;
+}
+
+.tidore {
+  top: 33%;
+  left: 84%;
+}
 
 }
 
